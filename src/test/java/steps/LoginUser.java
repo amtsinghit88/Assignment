@@ -20,7 +20,7 @@ public class LoginUser {
         userDetails details = new userDetails();
         details.setEmail(email);
         details.setPassword(password);
-        response = postRequest(details.toString(),LOGIN);
+        response = (Response) postRequest(details.toString(),LOGIN);
 
     }
 

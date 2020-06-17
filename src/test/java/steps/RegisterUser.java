@@ -20,7 +20,7 @@ public class RegisterUser {
         userDetails details = new userDetails();
         details.setName(name);
         details.setPassword(password);
-        response = postRequest(details.toString(),REGISTER);
+        response = (Response) postRequest(details.toString(),REGISTER);
 
     }
 

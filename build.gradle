@@ -22,7 +22,7 @@ dependencies {
 
     // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
     // https://mvnrepository.com/artifact/io.rest-assured/rest-assured
-    testCompile group: 'io.rest-assured', name: 'rest-assured', version: '3.3.0'
+    compile group: 'io.rest-assured', name: 'rest-assured', version: '3.3.0'
 
     // https://mvnrepository.com/artifact/org.testng/testng
     testCompile group: 'org.testng', name: 'testng', version: '7.1.0'

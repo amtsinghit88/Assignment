@@ -26,7 +26,7 @@ public class CreateUser {
         userDetails details = new userDetails();
         details.setName(name);
         details.setJob(job);
-        response = postRequest(details.toString(),CREATE);
+        response = (Response) postRequest(details.toString(),CREATE);
 
     }
 
